@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-// const URL = process.env.DB_URL;
-const URL = DB_URL = "mongodb+srv://Ashura:Ashura143@hello.rsvqrec.mongodb.net/?retryWrites=true&w=majority";
+const URL = process.env.DATABASE_URL;
+
 mongoose.set('strictQuery', false);
 
 //  Creating a database
