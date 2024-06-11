@@ -56,12 +56,10 @@ app.post('/login', async (req, res) => {
         } else {
             res.send({ result: 'no user found' });
         }
-    }
-    else {
+    } else {
         res.send({ result: 'Please fill all fields' });
     }
 });
-
 
 app.post("/contact", async (req, res) => {
     try {
